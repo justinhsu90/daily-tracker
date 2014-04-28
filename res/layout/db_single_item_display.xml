@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_trans"
+        android:orientation="vertical" android:gravity="center_horizontal">
+
+<!--         <Button -->
+<!--             android:id="@+id/edit_button" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_marginLeft="30sp" -->
+<!--             android:layout_marginRight="30sp" -->
+<!--             android:layout_marginTop="20sp" -->
+<!--             android:background="@drawable/button_dbitem_edit" -->
+<!--             android:text="Edit" -->
+<!--             android:textSize="40sp" -->
+<!--             android:textStyle="bold" /> -->
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location Information"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="30sp" android:textStyle="bold" android:gravity="center" android:layout_marginTop="20sp"/>
+
+        <TableLayout
+            android:id="@+id/TableLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="10sp" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:text="ID :  "
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:text="Time :  "
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:text="Latitude :  "
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/latitude"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:text="Longitude :  "
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/longitude"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:text="Place :  "
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/place"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView09"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:text="Place Type :  "
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/place_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+<!--             <TableRow -->
+<!--                 android:id="@+id/tableRow7" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/TextView02" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:paddingTop="3dip" -->
+<!--                     android:text="Get Boolean :  " -->
+<!--                     android:textColor="#fff" -->
+<!--                     android:textSize="20dp" -->
+<!--                     android:textStyle="bold" /> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/place_get" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:paddingTop="3dip" -->
+<!--                     android:textColor="#fff" -->
+<!--                     android:textSize="20dp" -->
+<!--                     android:textStyle="bold" /> -->
+<!--             </TableRow> -->
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5sp" >
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/TableLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="5sp" >
+
+            <!-- <LinearLayout -->
+            <!-- android:id="@+id/linearLayout1" -->
+            <!-- android:layout_width="fill_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:gravity="center_horizontal|center" > -->
+
+
+            <!-- <Button -->
+            <!-- android:id="@+id/map" -->
+            <!-- android:layout_width="150sp" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:gravity="center" -->
+            <!-- android:text="Map" -->
+            <!-- android:textSize="20sp" -->
+            <!-- android:textStyle="bold" /> -->
+
+
+            <!-- <Button -->
+            <!-- android:id="@+id/sat" -->
+            <!-- android:layout_width="150sp" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:gravity="center" -->
+            <!-- android:text="Satellite" -->
+            <!-- android:textSize="20sp" -->
+            <!-- android:textStyle="bold" /> -->
+            <!-- </LinearLayout> -->
+
+
+            <!-- <TableRow -->
+            <!-- android:id="@+id/TableRow03" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="match_parent" -->
+            <!-- android:paddingTop="5sp" > -->
+            <!-- </TableRow> -->
+
+
+            <!-- <com.google.android.maps.MapView -->
+            <!-- android:id="@+id/mapView" -->
+            <!-- android:layout_width="50sp" -->
+            <!-- android:layout_height="230sp" -->
+            <!-- android:apiKey="010wZTCua9fcBStrcZEfyO9P1rEQ0RQthGQBRBQ" -->
+            <!-- android:clickable="true" android:layout_marginLeft="30sp" android:layout_marginRight="30sp"> -->
+            <!-- </com.google.android.maps.MapView> -->
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/relativeLayout1"
+                android:layout_height="270sp" android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+
+                <com.google.android.maps.MapView
+                    android:id="@+id/mapView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:apiKey="010wZTCua9fcBStrcZEfyO9P1rEQ0RQthGQBRBQ"
+                    android:clickable="true" >
+                </com.google.android.maps.MapView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="right" >
+
+                    <Button
+                        android:id="@+id/sat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20px"
+                        android:text="" android:background="@drawable/map_icon_sat"/>
+
+                    <Button
+                        android:id="@+id/map"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" android:background="@drawable/map_icon_map"/>
+
+                    <!-- </LinearLayout> -->
+
+                </LinearLayout>
+            </RelativeLayout>
+ <!-- mac 010wZTCua9fdgW47tk-_sI_G5Wpldd4hjMGisVg -->
+            <!-- window 010wZTCua9fcBStrcZEfyO9P1rEQ0RQthGQBRBQ -->
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

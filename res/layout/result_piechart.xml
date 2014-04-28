@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_trans"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/piechart_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="20sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />
+
+        <!-- <ScrollView -->
+        <!-- android:id="@+id/scrollView1" -->
+        <!-- android:layout_width="match_parent"> -->
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/pie_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <!-- <ListView -->
+            <!-- android:id="@+id/piechart_listview" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="300dp" -->
+            <!-- android:layout_marginLeft="20dp" -->
+            <!-- android:layout_marginRight="20dp" -->
+            <!-- android:paddingTop="20dp" android:layout_marginBottom="30dp"> -->
+
+            <ListView
+                android:id="@+id/piechart_listview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:background="#00000000"
+                android:cacheColorHint="#00000000"
+                android:divider="#ffffff"
+                android:dividerHeight="1dip" >
+            </ListView>
+        </LinearLayout>
+        <!-- </ScrollView> -->
+    </LinearLayout>
+
+</LinearLayout>

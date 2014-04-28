@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dip"
+    android:paddingLeft="12dip"
+    android:paddingRight="12dip" >
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:text="ID :  "
+                    android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:text="Time :  "
+                    android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/>
+
+            </TableRow>
+
+<!--             <TableRow -->
+<!--                 android:id="@+id/tableRow3" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/TextView03" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:paddingTop="3dip" -->
+<!--                     android:text="Latitude :  " -->
+<!--                     android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/latitude" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:paddingTop="3dip" -->
+<!--                     android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/> -->
+
+<!--             </TableRow> -->
+
+<!--             <TableRow -->
+<!--                 android:id="@+id/tableRow4" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/TextView06" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:paddingTop="3dip" -->
+<!--                     android:text="Longitude :  " -->
+<!--                     android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/longitude" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:paddingTop="3dip" -->
+<!--                     android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/> -->
+
+<!--             </TableRow> -->
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:text="Place :  "
+                    android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/place"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:text="Place Type :  "
+                    android:textColor="#fff" android:textSize="20dp" android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/place_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dip"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+<!--             <TableRow -->
+<!--                 android:id="@+id/tableRow7" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" > -->
+<!--                 <TextView -->
+<!--                     android:id="@+id/TextView08" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:paddingTop="3dip" -->
+<!--                     android:text="Place Get :  " -->
+<!--                     android:textColor="#fff" -->
+<!--                     android:textSize="20dp" -->
+<!--                     android:textStyle="bold" /> -->
+<!--                 <TextView -->
+<!--                     android:id="@+id/place_get" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:paddingTop="3dip" -->
+<!--                     android:textColor="#fff" -->
+<!--                     android:textSize="20dp" -->
+<!--                     android:textStyle="bold" /> -->
+<!--             </TableRow> -->
+
+        </TableLayout>
+
+    </RelativeLayout>

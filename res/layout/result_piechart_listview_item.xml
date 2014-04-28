@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/piechart_listview_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+<!--         <SurfaceView -->
+<!--             android:id="@+id/piechart_listview_color" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" /> -->
+
+<!--         <ImageView -->
+<!--             android:id="@+id/piechart_listview_color" -->
+<!--             android:layout_width="40dp" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:src="@drawable/map_pin" /> -->
+
+<!--         <View -->
+<!--             android:id="@+id/piechart_listview_color" -->
+<!--             android:layout_width="40dp" -->
+<!--             android:layout_height="30dp" android:background="@color/green"/> -->
+
+        <TextView
+            android:id="@id/piechart_listview_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:background="@color/blue" />
+
+        <TextView
+            android:id="@+id/piechart_listview_percentage"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_horizontal"
+            android:text="100%"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="20dp" android:textStyle="bold"/>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:background="@color/blue" />
+
+        <TextView
+            android:id="@+id/piechart_listview_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="20dp" android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

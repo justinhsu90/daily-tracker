@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/background">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:background="@drawable/background_trans">
+
+        <com.google.android.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:apiKey="010wZTCua9feCkaffwhmjqqLrcHRWVnWduDa7iQ"
+            android:clickable="true" android:layout_margin="30sp"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="right" android:layout_marginRight="30sp" android:layout_marginTop="30sp">
+
+            <Button
+                android:id="@+id/sat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/map_icon_sat"/>
+
+            <Button
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/map_icon_map"/>
+
+            <ToggleButton
+                android:id="@+id/enable_location_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/map_icon_mylocation_off"
+                android:textOff=""
+                android:textOn="" />
+
+            <!-- </LinearLayout> -->
+
+        </LinearLayout>
+    </RelativeLayout> <!-- mac 010wZTCua9fdgW47tk-_sI_G5Wpldd4hjMGisVg -->
+    <!-- window 010wZTCua9fcBStrcZEfyO9P1rEQ0RQthGQBRBQ -->
+
+</LinearLayout>
